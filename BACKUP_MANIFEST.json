@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "repair_scope": "replace truncated PR listing; preserve existing code, release assets, issues and restore scripts",
+  "source_repository": "dolidolih/iris_bot",
+  "backup_repository": "JadeJung15/iris_bot",
+  "backup_branch": "upstream-archive",
+  "collection": {
+    "repository": "dolidolih/iris_bot",
+    "started_at_utc": "2026-10-26T15:23:10Z",
+    "source_request": {
+      "state": "all",
+      "sort": "created",
+      "direction": "asc",
+      "per_page": 5
+    },
+    "count": 71,
+    "duplicate_source_ids": 0,
+    "duplicate_pr_numbers": 0,
+    "first_empty_page": 16,
+    "record_page_count": 15,
+    "page_sizes": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5,
+      "6": 5,
+      "7": 5,
+      "8": 5,
+      "9": 5,
+      "10": 5,
+      "11": 5,
+      "12": 5,
+      "13": 5,
+      "14": 5,
+      "15": 1,
+      "16": 0
+    },
+    "latest_number": 71,
+    "source_fields": [
+      "number",
+      "title",
+      "body",
+      "state",
+      "draft",
+      "merged",
+      "html_url",
+      "user",
+      "head",
+      "base",
+      "created_at",
+      "updated_at",
+      "closed_at"
+    ],
+    "comments_collected": false,
+    "review_comments_collected": false,
+    "body_preserved": true,
+    "base_archive_commit": "9262bb9447f218a65ae0ace5e60f0797042c09d1",
+    "completed_at_utc": "2026-10-26T15:25:03Z"
+  },
+  "preservation_scope": {
+    "included": [
+      "all PRs in open and closed states returned by paginated list API",
+      "title and full body",
+      "selected metadata matching previous export schema"
+    ],
+    "not_collected": [
+      "issue comments",
+      "review comments",
+      "review records",
+      "diffs and patches",
+      "PR head code snapshots"
+    ]
+  },
+  "pulls_json": {
+    "path": "discussions/pulls.json",
+    "size_bytes": 62196,
+    "sha256": "1a4268463ca607a599503c8e6e3e306392a45cf396b32fabc9be6ca959e54ae1",
+    "git_blob_sha1": "dedb4c21dded1b346f6013ed79038712e0763194"
+  },
+  "validation": {
+    "valid_json": true,
+    "pagination_exhausted": true,
+    "duplicate_source_ids": 0,
+    "duplicate_pr_numbers": 0,
+    "truncation_marker_found": false
+  },
+  "preserved_files": [
+    {
+      "path": "discussions/issues.json",
+      "size_bytes": 85,
+      "sha256": "a4521f8c092315f8dbea5899f54e99e4d400c038e9cc755983e58bce174e0380",
+      "git_blob_sha1": "dff2ffeedfe070c9133b340e1df322b2be9370f9"
+    }
+  ]
+}

@@ -1,3 +1,2270 @@
-[{"number":71,"title":"Refactor: Optimize performance, database transactions, remove pandas, and fix reconciliation","body":"This PR optimizes database writes by wrapping them in transactions, replaces the heavy pandas dependency in attendance checks with standard libraries, fixes a Kakao Talk membership reconciliation bug where left members were not correctly tracked, and implements various timezone/performance cleanups.","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/71","user":{"login":"alekjin","id":3772037,"profile_url":"https://github.com/alekjin","avatar_url":"https://avatars.githubusercontent.com/u/3772037?v=4"},"head":{"ref":"main","sha":"d110df68e136ad56fcdaf7a24ca2b479efd7bbf5"},"base":{"ref":"main","sha":"21fbeb5cfd0f32287b38cbf214587c7d35189321","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2026-06-05T05:19:04Z","updated_at":"2026-06-05T05:56:29Z","closed_at":"2026-06-05T05:20:58Z"},{"number":70,"title":"Feature/add id command 2","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/70","user":{"login":"cj0311","id":13248946,"profile_url":"https://github.com/cj0311","avatar_url":"https://avatars.githubusercontent.com/u/13248946?v=4"},"head":{"ref":"feature/add-id-command-2","sha":"1bb0b6721b3073c5442e756a9b0ecd3f71ff139b"},"base":{"ref":"main","sha":"21fbeb5cfd0f32287b38cbf214587c7d35189321","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2026-02-07T12:03:58Z","updated_at":"2026-02-07T12:11:22Z","closed_at":"2026-02-07T12:06:10Z"},{"number":69,"title":"fixed error","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/69","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"606b83893c49aba66fe88bd5cc2bd7936ca96da2","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"e4a35a70f7a17c8dd2b200e225c52835dae8ff24","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-06-11T10:46:17Z","updated_at":"2025-06-11T10:46:24Z","closed_at":"2025-06-11T10:46:24Z","merged_at":"2025-06-11T10:46:24Z"},{"number":68,"title":"fixed change nickname detection error when user leaves chatroom","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/68","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"4b0a74de31358aace62e750791dace57ad613e78","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"3566b59a4fced063aafbc7a38b11b455fde2b05d","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-05-25T13:13:58Z","updated_at":"2025-05-25T13:14:05Z","closed_at":"2025-05-25T13:14:05Z","merged_at":"2025-05-25T13:14:05Z"},{"number":67,"title":"fixed code to support irispy-client-0.1.2","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/67","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"af33ef83675ccc8bca4ccb9cc545e151908bba04","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"7cb5a6a1c90602be0ac4ff3f49fdc3e562d4f594","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-05-24T15:01:13Z","updated_at":"2025-05-24T15:01:22Z","closed_at":"2025-05-24T15:01:22Z","merged_at":"2025-05-24T15:01:22Z"},{"number":66,"title":"fixed code to support irispy-client-0.1.2","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/66","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"88696cfdd87f1a659516b8a33dfddf2752ba9d18","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"52b324dadc2e9b528cdef0fc4b023adfdd6f49ce","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-05-24T14:32:41Z","updated_at":"2025-05-24T14:32:48Z","closed_at":"2025-05-24T14:32:47Z","merged_at":"2025-05-24T14:32:47Z"},{"number":65,"title":"fixed bug not adding text","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/65","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"cafd1e80344f4a29b11105a3c136568cd16641c4","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"323744b6d84027ea8badd655f64a91e214752ac1","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-05-24T03:07:57Z","updated_at":"2025-05-24T03:08:03Z","closed_at":"2025-05-24T03:08:03Z","merged_at":"2025-05-24T03:08:03Z"},{"number":64,"title":"support irispy-client-0.1.2","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/64","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"fe0b9154902d30d26820687f9bc8d2d5b513999b","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"90145259540057e21c28f47a6628706538b9abbe","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-05-19T16:06:33Z","updated_at":"2025-05-19T16:06:39Z","closed_at":"2025-05-19T16:06:38Z","merged_at":"2025-05-19T16:06:38Z"},{"number":63,"title":"support irispy-client-0.1.2","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/63","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"b1e3a7dcf951bad13dd2d6218b4679f43716d6ba","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"8e447d1e95f594367c67dd4f345f634364b70129","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-05-19T16:04:47Z","updated_at":"2025-05-19T16:04:54Z","closed_at":"2025-05-19T16:04:54Z","merged_at":"2025-05-19T16:04:54Z"},{"number":62,"title":"removed ImageHelper","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/62","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"6dd2d62fedfdbe3c8239388cc03575d226120c44","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"d673cefe2bee733871cf8ae5e97151854a33d05c","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-05-19T12:04:48Z","updated_at":"2025-05-19T12:04:53Z","closed_at":"2025-05-19T12:04:53Z","merged_at":"2025-05-19T12:04:53Z"},{"number":61,"title":"support irispy-client-0.1.2","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/61","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"ba75a27e33010cabb03fd074f22d1d95ba8da4f2","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"0fafa01b72fab7ea3d3dc8af5fae99f1529ea1c8","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-05-19T11:37:01Z","updated_at":"2025-05-19T11:37:07Z","closed_at":"2025-05-19T11:37:07Z","merged_at":"2025-05-19T11:37:07Z"},{"number":60,"title":"changed base module from irispy2 to irispy-client","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/60","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"efde6dffcdb59aacf736b20571b794869a6cad5c","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"a1eee0fc0f3e59728ad1b6a541b7589eae99c737","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-05-18T16:16:23Z","updated_at":"2025-05-18T16:16:29Z","closed_at":"2025-05-18T16:16:29Z","merged_at":"2025-05-18T16:16:29Z"},{"number":59,"title":"I don't know why indentation was like that","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/59","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"b0b15ba8b1a1a2b9797e7384b3db5c1e21e199ea","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"3dfc67dea1ed127295805c8ed3c068c1e843b032","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-05-08T16:13:11Z","updated_at":"2025-05-08T16:13:19Z","closed_at":"2025-05-08T16:13:19Z","merged_at":"2025-05-08T16:13:19Z"},{"number":58,"title":"Dev","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/58","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"d44fe7753cfc55714aee93f9880c15189b671057","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"2b4ec5c6f88d0b2782b2b5b6551a901090b0ed5f","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-05-04T16:37:57Z","updated_at":"2025-05-04T16:38:05Z","closed_at":"2025-05-04T16:38:05Z","merged_at":"2025-05-04T16:38:05Z"},{"number":57,"title":"fixed KakaoLink failed to login after 24hr","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/57","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"fa9e3241fffbef6d5d59a742323788d259f877af","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"e5f56aeca42944a85c42b9202e9f623f8083533b","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-28T13:28:58Z","updated_at":"2025-04-28T13:29:05Z","closed_at":"2025-04-28T13:29:05Z","merged_at":"2025-04-28T13:29:05Z"},{"number":56,"title":"added nickname change history","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/56","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"926457e3d6e64a7bfcee260cc91b91d9135ec180","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"192d49118b3124c66a7c10a726c845a821c4f02f","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-24T14:41:14Z","updated_at":"2025-04-24T14:41:21Z","closed_at":"2025-04-24T14:41:21Z","merged_at":"2025-04-24T14:41:21Z"},{"number":55,"title":"Dev","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/55","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"08c8b844f1c946001c08737942be82a746ccbb6c","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"bed127b5b5ed3f1473b0a743873e92ef9f3e6834","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-24T14:16:23Z","updated_at":"2025-04-24T14:16:29Z","closed_at":"2025-04-24T14:16:29Z","merged_at":"2025-04-24T14:16:29Z"},{"number":54,"title":"fixed multiline text is not correctly shown","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/54","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"fe1a96bd1231efa202931ad61e5d00dcbd82562b","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"068d2db5fb62da890cd82777e5d6ff3af5ca40cd","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-24T12:25:52Z","updated_at":"2025-04-24T12:25:58Z","closed_at":"2025-04-24T12:25:58Z","merged_at":"2025-04-24T12:25:58Z"},{"number":53,"title":"BotManager and PyKV can be imported directly from helper","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/53","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"a042f5ae6d6ba80346ad867ebfba5b48dd36513a","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"a2eb9b0956b752736f473d69c82f61330ba07da7","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-22T13:53:57Z","updated_at":"2025-04-22T13:54:04Z","closed_at":"2025-04-22T13:54:04Z","merged_at":"2025-04-22T13:54:04Z"},{"number":52,"title":"added sender type, chat.image","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/52","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"efb59232372c2bdfdd714d7fab634f8a19edfac1","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"c3afc8f790654e88c081881f80545ba44d1f0c05","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-22T13:13:55Z","updated_at":"2025-04-22T13:14:00Z","closed_at":"2025-04-22T13:14:00Z","merged_at":"2025-04-22T13:14:00Z"},{"number":51,"title":"added example kakaolink usage and shared template info","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/51","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"1b4afde8f49a90a7b783e2bbce1bc65918e903ae","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"8a0119abe3e38bb63a23edf2cb5f3feb4f406606","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-20T11:52:20Z","updated_at":"2025-04-20T11:52:28Z","closed_at":"2025-04-20T11:52:28Z","merged_at":"2025-04-20T11:52:27Z"},{"number":50,"title":"added example kakaolink usage","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/50","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"25b4b2965cd47440e190576aa29cfdf6c0305027","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"3ee54865e0bf9bed01ea9c24eb1ed83f0d3f5728","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-20T11:33:38Z","updated_at":"2025-04-20T11:33:44Z","closed_at":"2025-04-20T11:33:44Z","merged_at":"2025-04-20T11:33:44Z"},{"number":49,"title":"changed Addon to addon","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/49","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"5031b2eaa17e15b6562201f6e864c75f4700f08a","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"fc0a93dec2860b0b3dfd4cf9bbe6c8c0c6c595b2","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-20T11:25:23Z","updated_at":"2025-04-20T11:25:29Z","closed_at":"2025-04-20T11:25:29Z","merged_at":"2025-04-20T11:25:29Z"},{"number":48,"title":"pass kl to real_eval","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/48","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"0e1ff5c31393e22b9f151664fb5ea46aed1e1f8b","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"00b96581c9233c3b99404cc1db9f5ca1a3894e33","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-20T11:13:00Z","updated_at":"2025-04-20T11:13:06Z","closed_at":"2025-04-20T11:13:06Z","merged_at":"2025-04-20T11:13:06Z"},{"number":47,"title":"added kakaolink env info","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/47","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"7faec0dd42158c76e66841b8c84b881274250b10","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"8e6fff9aae59469136333e57a191c3783e005bb2","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-20T11:09:20Z","updated_at":"2025-04-20T11:09:26Z","closed_at":"2025-04-20T11:09:26Z","merged_at":"2025-04-20T11:09:26Z"},{"number":46,"title":"support kakaolink by ye-seola","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/46","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"fc246a25cb6c1629e9db9232de85e7a1ed444a00","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"78aae15d8867ffcc01f5ae232f3538d9d7eb7a80","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-20T11:06:15Z","updated_at":"2025-04-20T11:06:26Z","closed_at":"2025-04-20T11:06:26Z","merged_at":"2025-04-20T11:06:26Z"},{"number":45,"title":"lazy loads bot name and bot avatar","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/45","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"ee56d7822592b3305d84f7c13e80dbb1fd9727a9","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"3a77c682b165afd1554b2d6e6262de4c041e58d4","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-20T08:58:07Z","updated_at":"2025-04-20T08:58:13Z","closed_at":"2025-04-20T08:58:13Z","merged_at":"2025-04-20T08:58:13Z"},{"number":44,"title":"run nickname change as thread","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/44","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"c1d5668f8b7cc60e093e33ca12c3ab1de9830ea9","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"f1a52a607bf7b50ce8284e9785a5b3a22001346c","repo":{"full_name":"dolidolih/iris_bot"}},"created_at":"2025-04-20T03:07:55Z","updated_at":"2025-04-20T03:08:01Z","closed_at":"2025-04-20T03:08:01Z","merged_at":"2025-04-20T03:08:01Z"},{"number":43,"title":"refactoring Addons - now from Addon import * will import all addon de…","body":"…corators.","state":"closed","draft":false,"merged":false,"html_url":"https://github.com/dolidolih/iris_bot/pull/43","user":{"login":"dolidolih","id":130177574,"profile_url":"https://github.com/dolidolih","avatar_url":"https://avatars.githubusercontent.com/u/130177574?v=4"},"head":{"ref":"dev","sha":"94dd64acf8d1afadf9ad363e40e1cfe6652c9770","repo":{"full_name":"dolidolih/iris_bot"}},"base":{"ref":"main","sha":"68783dfe636895efa6c187b6ab9430ea11824538",[+28752 bytes at .content[0].text]
-
-[Tool result truncated by the connectors gateway: kept 20000 of 48752 text bytes. Re-run the tool with narrower arguments (filters, pagination, smaller ranges) if more is needed.]
+[
+  {
+    "number": 71,
+    "title": "Refactor: Optimize performance, database transactions, remove pandas, and fix reconciliation",
+    "body": "This PR optimizes database writes by wrapping them in transactions, replaces the heavy pandas dependency in attendance checks with standard libraries, fixes a Kakao Talk membership reconciliation bug where left members were not correctly tracked, and implements various timezone/performance cleanups.",
+    "state": "closed",
+    "draft": false,
+    "merged": false,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/71",
+    "user": {
+      "login": "alekjin",
+      "id": 3772037,
+      "profile_url": "https://github.com/alekjin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3772037?v=4"
+    },
+    "head": {
+      "ref": "main",
+      "sha": "d110df68e136ad56fcdaf7a24ca2b479efd7bbf5",
+      "repo": null
+    },
+    "base": {
+      "ref": "main",
+      "sha": "21fbeb5cfd0f32287b38cbf214587c7d35189321",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2026-06-05T05:19:04Z",
+    "updated_at": "2026-06-05T05:56:29Z",
+    "closed_at": "2026-06-05T05:20:58Z"
+  },
+  {
+    "number": 70,
+    "title": "Feature/add id command 2",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": false,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/70",
+    "user": {
+      "login": "cj0311",
+      "id": 13248946,
+      "profile_url": "https://github.com/cj0311",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13248946?v=4"
+    },
+    "head": {
+      "ref": "feature/add-id-command-2",
+      "sha": "1bb0b6721b3073c5442e756a9b0ecd3f71ff139b",
+      "repo": null
+    },
+    "base": {
+      "ref": "main",
+      "sha": "21fbeb5cfd0f32287b38cbf214587c7d35189321",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2026-02-07T12:03:58Z",
+    "updated_at": "2026-02-07T12:11:22Z",
+    "closed_at": "2026-02-07T12:06:10Z"
+  },
+  {
+    "number": 69,
+    "title": "fixed error",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/69",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "606b83893c49aba66fe88bd5cc2bd7936ca96da2",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "e4a35a70f7a17c8dd2b200e225c52835dae8ff24",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-06-11T10:46:17Z",
+    "updated_at": "2025-06-11T10:46:24Z",
+    "closed_at": "2025-06-11T10:46:24Z"
+  },
+  {
+    "number": 68,
+    "title": "fixed change nickname detection error when user leaves chatroom",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/68",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "4b0a74de31358aace62e750791dace57ad613e78",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "3566b59a4fced063aafbc7a38b11b455fde2b05d",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-05-25T13:13:58Z",
+    "updated_at": "2025-05-25T13:14:05Z",
+    "closed_at": "2025-05-25T13:14:05Z"
+  },
+  {
+    "number": 67,
+    "title": "fixed code to support irispy-client-0.1.2",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/67",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "af33ef83675ccc8bca4ccb9cc545e151908bba04",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "7cb5a6a1c90602be0ac4ff3f49fdc3e562d4f594",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-05-24T15:01:13Z",
+    "updated_at": "2025-05-24T15:01:22Z",
+    "closed_at": "2025-05-24T15:01:22Z"
+  },
+  {
+    "number": 66,
+    "title": "fixed code to support irispy-client-0.1.2",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/66",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "88696cfdd87f1a659516b8a33dfddf2752ba9d18",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "52b324dadc2e9b528cdef0fc4b023adfdd6f49ce",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-05-24T14:32:41Z",
+    "updated_at": "2025-05-24T14:32:48Z",
+    "closed_at": "2025-05-24T14:32:47Z"
+  },
+  {
+    "number": 65,
+    "title": "fixed bug not adding text",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/65",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "cafd1e80344f4a29b11105a3c136568cd16641c4",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "323744b6d84027ea8badd655f64a91e214752ac1",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-05-24T03:07:57Z",
+    "updated_at": "2025-05-24T03:08:03Z",
+    "closed_at": "2025-05-24T03:08:03Z"
+  },
+  {
+    "number": 64,
+    "title": "support irispy-client-0.1.2",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/64",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "fe0b9154902d30d26820687f9bc8d2d5b513999b",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "90145259540057e21c28f47a6628706538b9abbe",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-05-19T16:06:33Z",
+    "updated_at": "2025-05-19T16:06:39Z",
+    "closed_at": "2025-05-19T16:06:38Z"
+  },
+  {
+    "number": 63,
+    "title": "support irispy-client-0.1.2",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/63",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "b1e3a7dcf951bad13dd2d6218b4679f43716d6ba",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "8e447d1e95f594367c67dd4f345f634364b70129",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-05-19T16:04:47Z",
+    "updated_at": "2025-05-19T16:04:54Z",
+    "closed_at": "2025-05-19T16:04:54Z"
+  },
+  {
+    "number": 62,
+    "title": "removed ImageHelper",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/62",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "6dd2d62fedfdbe3c8239388cc03575d226120c44",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "d673cefe2bee733871cf8ae5e97151854a33d05c",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-05-19T12:04:48Z",
+    "updated_at": "2025-05-19T12:04:53Z",
+    "closed_at": "2025-05-19T12:04:53Z"
+  },
+  {
+    "number": 61,
+    "title": "support irispy-client-0.1.2",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/61",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "ba75a27e33010cabb03fd074f22d1d95ba8da4f2",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "0fafa01b72fab7ea3d3dc8af5fae99f1529ea1c8",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-05-19T11:37:01Z",
+    "updated_at": "2025-05-19T11:37:07Z",
+    "closed_at": "2025-05-19T11:37:07Z"
+  },
+  {
+    "number": 60,
+    "title": "changed base module from irispy2 to irispy-client",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/60",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "efde6dffcdb59aacf736b20571b794869a6cad5c",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "a1eee0fc0f3e59728ad1b6a541b7589eae99c737",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-05-18T16:16:23Z",
+    "updated_at": "2025-05-18T16:16:29Z",
+    "closed_at": "2025-05-18T16:16:29Z"
+  },
+  {
+    "number": 59,
+    "title": "I don't know why indentation was like that",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/59",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "b0b15ba8b1a1a2b9797e7384b3db5c1e21e199ea",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "3dfc67dea1ed127295805c8ed3c068c1e843b032",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-05-08T16:13:11Z",
+    "updated_at": "2025-05-08T16:13:19Z",
+    "closed_at": "2025-05-08T16:13:19Z"
+  },
+  {
+    "number": 58,
+    "title": "Dev",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/58",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "d44fe7753cfc55714aee93f9880c15189b671057",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "2b4ec5c6f88d0b2782b2b5b6551a901090b0ed5f",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-05-04T16:37:57Z",
+    "updated_at": "2025-05-04T16:38:05Z",
+    "closed_at": "2025-05-04T16:38:05Z"
+  },
+  {
+    "number": 57,
+    "title": "fixed KakaoLink failed to login after 24hr",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/57",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "fa9e3241fffbef6d5d59a742323788d259f877af",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "e5f56aeca42944a85c42b9202e9f623f8083533b",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-28T13:28:58Z",
+    "updated_at": "2025-04-28T13:29:05Z",
+    "closed_at": "2025-04-28T13:29:05Z"
+  },
+  {
+    "number": 56,
+    "title": "added nickname change history",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/56",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "926457e3d6e64a7bfcee260cc91b91d9135ec180",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "192d49118b3124c66a7c10a726c845a821c4f02f",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-24T14:41:14Z",
+    "updated_at": "2025-04-24T14:41:21Z",
+    "closed_at": "2025-04-24T14:41:21Z"
+  },
+  {
+    "number": 55,
+    "title": "Dev",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/55",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "08c8b844f1c946001c08737942be82a746ccbb6c",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "bed127b5b5ed3f1473b0a743873e92ef9f3e6834",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-24T14:16:23Z",
+    "updated_at": "2025-04-24T14:16:29Z",
+    "closed_at": "2025-04-24T14:16:29Z"
+  },
+  {
+    "number": 54,
+    "title": "fixed multiline text is not correctly shown",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/54",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "fe1a96bd1231efa202931ad61e5d00dcbd82562b",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "068d2db5fb62da890cd82777e5d6ff3af5ca40cd",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-24T12:25:52Z",
+    "updated_at": "2025-04-24T12:25:58Z",
+    "closed_at": "2025-04-24T12:25:58Z"
+  },
+  {
+    "number": 53,
+    "title": "BotManager and PyKV can be imported directly from helper",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/53",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "a042f5ae6d6ba80346ad867ebfba5b48dd36513a",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "a2eb9b0956b752736f473d69c82f61330ba07da7",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-22T13:53:57Z",
+    "updated_at": "2025-04-22T13:54:04Z",
+    "closed_at": "2025-04-22T13:54:04Z"
+  },
+  {
+    "number": 52,
+    "title": "added sender type, chat.image",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/52",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "efb59232372c2bdfdd714d7fab634f8a19edfac1",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "c3afc8f790654e88c081881f80545ba44d1f0c05",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-22T13:13:55Z",
+    "updated_at": "2025-04-22T13:14:00Z",
+    "closed_at": "2025-04-22T13:14:00Z"
+  },
+  {
+    "number": 51,
+    "title": "added example kakaolink usage and shared template info",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/51",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "1b4afde8f49a90a7b783e2bbce1bc65918e903ae",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "8a0119abe3e38bb63a23edf2cb5f3feb4f406606",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-20T11:52:20Z",
+    "updated_at": "2025-04-20T11:52:28Z",
+    "closed_at": "2025-04-20T11:52:28Z"
+  },
+  {
+    "number": 50,
+    "title": "added example kakaolink usage",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/50",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "25b4b2965cd47440e190576aa29cfdf6c0305027",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "3ee54865e0bf9bed01ea9c24eb1ed83f0d3f5728",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-20T11:33:38Z",
+    "updated_at": "2025-04-20T11:33:44Z",
+    "closed_at": "2025-04-20T11:33:44Z"
+  },
+  {
+    "number": 49,
+    "title": "changed Addon to addon",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/49",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "5031b2eaa17e15b6562201f6e864c75f4700f08a",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "fc0a93dec2860b0b3dfd4cf9bbe6c8c0c6c595b2",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-20T11:25:23Z",
+    "updated_at": "2025-04-20T11:25:29Z",
+    "closed_at": "2025-04-20T11:25:29Z"
+  },
+  {
+    "number": 48,
+    "title": "pass kl to real_eval",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/48",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "0e1ff5c31393e22b9f151664fb5ea46aed1e1f8b",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "00b96581c9233c3b99404cc1db9f5ca1a3894e33",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-20T11:13:00Z",
+    "updated_at": "2025-04-20T11:13:06Z",
+    "closed_at": "2025-04-20T11:13:06Z"
+  },
+  {
+    "number": 47,
+    "title": "added kakaolink env info",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/47",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "7faec0dd42158c76e66841b8c84b881274250b10",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "8e6fff9aae59469136333e57a191c3783e005bb2",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-20T11:09:20Z",
+    "updated_at": "2025-04-20T11:09:26Z",
+    "closed_at": "2025-04-20T11:09:26Z"
+  },
+  {
+    "number": 46,
+    "title": "support kakaolink by ye-seola",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/46",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "fc246a25cb6c1629e9db9232de85e7a1ed444a00",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "78aae15d8867ffcc01f5ae232f3538d9d7eb7a80",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-20T11:06:15Z",
+    "updated_at": "2025-04-20T11:06:26Z",
+    "closed_at": "2025-04-20T11:06:26Z"
+  },
+  {
+    "number": 45,
+    "title": "lazy loads bot name and bot avatar",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/45",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "ee56d7822592b3305d84f7c13e80dbb1fd9727a9",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "3a77c682b165afd1554b2d6e6262de4c041e58d4",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-20T08:58:07Z",
+    "updated_at": "2025-04-20T08:58:13Z",
+    "closed_at": "2025-04-20T08:58:13Z"
+  },
+  {
+    "number": 44,
+    "title": "run nickname change as thread",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/44",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "c1d5668f8b7cc60e093e33ca12c3ab1de9830ea9",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "f1a52a607bf7b50ce8284e9785a5b3a22001346c",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-20T03:07:55Z",
+    "updated_at": "2025-04-20T03:08:01Z",
+    "closed_at": "2025-04-20T03:08:01Z"
+  },
+  {
+    "number": 43,
+    "title": "refactoring Addons - now from Addon import * will import all addon de…",
+    "body": "…corators.",
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/43",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "94dd64acf8d1afadf9ad363e40e1cfe6652c9770",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "68783dfe636895efa6c187b6ab9430ea11824538",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-19T14:10:06Z",
+    "updated_at": "2025-04-19T14:10:12Z",
+    "closed_at": "2025-04-19T14:10:12Z"
+  },
+  {
+    "number": 42,
+    "title": "fixed not processing type 27, 71",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/42",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "c2e1193e92b50acf632043ce76aee610362fc6a2",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "af2024a3e3f4b5291609be337d52fb22d0234a8f",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-19T12:02:33Z",
+    "updated_at": "2025-04-19T12:02:39Z",
+    "closed_at": "2025-04-19T12:02:39Z"
+  },
+  {
+    "number": 41,
+    "title": "revised readme",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/41",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "b818523cfa853fbc576425a2c6b3cee4913fda4b",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "225eee70a0af224d94fd09e12feaf1e9b0a970c3",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-19T08:14:43Z",
+    "updated_at": "2025-04-19T08:14:56Z",
+    "closed_at": "2025-04-19T08:14:56Z"
+  },
+  {
+    "number": 40,
+    "title": "added chat.room.type",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/40",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "2c3b6baec4c436c3a8336c7ec2446b293a8dd9d2",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "6cc9b405fb68c48197a12b93b0c314ce6ced29be",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-19T08:12:43Z",
+    "updated_at": "2025-04-19T08:12:49Z",
+    "closed_at": "2025-04-19T08:12:49Z"
+  },
+  {
+    "number": 39,
+    "title": "added sender name when replying messages",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/39",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "24099f587088a98fdd4bf1a29bdb0635d448579e",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "8fb57935147e49bac48e347c5f5d2cb7d6a087ca",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-19T03:30:29Z",
+    "updated_at": "2025-04-19T03:30:36Z",
+    "closed_at": "2025-04-19T03:30:36Z"
+  },
+  {
+    "number": 38,
+    "title": "fixed error when admin, ban is not set",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/38",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "4755f7ae1bfe2d0a2864c58e823559c4f7c9df29",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "49a93d0d62860b6a4a02b34db14a04cd29ca3bd7",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-19T03:22:50Z",
+    "updated_at": "2025-04-19T03:22:56Z",
+    "closed_at": "2025-04-19T03:22:56Z"
+  },
+  {
+    "number": 37,
+    "title": "added profile image send",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/37",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "282d5990b43cbac5f4d779565ccccfa765be2252",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "65818469304f07dd69e3418637748c73fa325dbf",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-17T15:02:54Z",
+    "updated_at": "2025-04-17T15:03:00Z",
+    "closed_at": "2025-04-17T15:03:00Z"
+  },
+  {
+    "number": 36,
+    "title": "applied chat.message.param",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/36",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "8a6c4e8e81f83b6793d49e77e45112212441a890",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "950e0e541c3764075273e5c474cdacde6f3c465b",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-17T14:50:24Z",
+    "updated_at": "2025-04-17T14:50:29Z",
+    "closed_at": "2025-04-17T14:50:29Z"
+  },
+  {
+    "number": 35,
+    "title": "fixed bug in addon.py",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/35",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "a48e04ce3ad1a651549a3ca9067acc0cd29d7f4f",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "2abf7ae414cf19bf9a33d22878527063e28c39bc",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-17T12:55:09Z",
+    "updated_at": "2025-04-17T12:55:44Z",
+    "closed_at": "2025-04-17T12:55:44Z"
+  },
+  {
+    "number": 34,
+    "title": "added get_previous_chat & get_next_chat. changed getting src record l…",
+    "body": "…ogic",
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/34",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "419544205f03b252694f9aceda54198d913902d0",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "92764f89c88d0c3f9e3d1b2db8597da7de60dfde",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-17T12:50:30Z",
+    "updated_at": "2025-04-17T12:50:36Z",
+    "closed_at": "2025-04-17T12:50:36Z"
+  },
+  {
+    "number": 33,
+    "title": "adjusted y position of text",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/33",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "29b3dea289a2013fdaef47474dad7210bf0f7a82",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "d1b16830fb4d50aa5ed004971d2e6b9b3daa77bb",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-16T14:40:00Z",
+    "updated_at": "2025-04-16T14:40:06Z",
+    "closed_at": "2025-04-16T14:40:06Z"
+  },
+  {
+    "number": 32,
+    "title": "added avatar, command, param & added helper.Addon",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/32",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "cfa4843b781a5a0d7bafd550560e7f629011b9fe",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "65208334b8af3837f669377b1c596dd3265944dd",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-16T14:30:27Z",
+    "updated_at": "2025-04-16T14:30:35Z",
+    "closed_at": "2025-04-16T14:30:34Z"
+  },
+  {
+    "number": 31,
+    "title": "Dev",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/31",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "aee0cbde0b9f5da3da1bbbfeca71d1d6e7d95ad9",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "2827cdfc1d6e816b7e8b5cb4d872bc859c1fbebf",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-13T15:09:26Z",
+    "updated_at": "2025-04-13T15:09:33Z",
+    "closed_at": "2025-04-13T15:09:32Z"
+  },
+  {
+    "number": 30,
+    "title": "changed absolute path to relative",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": false,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/30",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "f5769eaec16035c3cb19f4b01690d0ab9cb3a568",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "2827cdfc1d6e816b7e8b5cb4d872bc859c1fbebf",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-13T15:07:26Z",
+    "updated_at": "2025-04-13T15:07:55Z",
+    "closed_at": "2025-04-13T15:07:55Z"
+  },
+  {
+    "number": 29,
+    "title": "modified absolute path to relative",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/29",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "34e68512f6d000ef30ee46e6ee43fcb52d978e32",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "58200e61fc19b84018b270ee1a0f92ab68defc3f",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-13T15:04:24Z",
+    "updated_at": "2025-04-13T15:04:29Z",
+    "closed_at": "2025-04-13T15:04:29Z"
+  },
+  {
+    "number": 28,
+    "title": "Dev",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/28",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "0461cbdf04ff86867d90e4e57a70ea2757fbe275",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "ddd31172e72570a51e08e28df4384a4513b96637",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-13T03:56:42Z",
+    "updated_at": "2025-04-13T03:56:48Z",
+    "closed_at": "2025-04-13T03:56:48Z"
+  },
+  {
+    "number": 27,
+    "title": "Dev",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/27",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "0dfe1521ff4732dc58ae0c239b31bcfa42075382",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "db2d17ad7b5f6cd11da3223d6ac2ab85b271ca67",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-12T15:21:33Z",
+    "updated_at": "2025-04-12T15:21:41Z",
+    "closed_at": "2025-04-12T15:21:41Z"
+  },
+  {
+    "number": 26,
+    "title": "added change notice",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/26",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "db257d720bdae01655fcc5a1b55bb4294dfc7f3d",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "65f37e2ef387db68396f591977ce9eb31229eca7",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-12T12:24:19Z",
+    "updated_at": "2025-04-12T12:24:26Z",
+    "closed_at": "2025-04-12T12:24:26Z"
+  },
+  {
+    "number": 25,
+    "title": "removed unnecessary parenthesis for decorations",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/25",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "4d37e1c50a734532d6adc774675c233a12acc1d5",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "0455992e074e78a97c3e87e99eb5d407347d679e",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-12T12:20:08Z",
+    "updated_at": "2025-04-12T12:20:14Z",
+    "closed_at": "2025-04-12T12:20:13Z"
+  },
+  {
+    "number": 24,
+    "title": "added new_mem, del_mem example",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/24",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "287711bdd1867efb3f507c488c6aadde5b3e6a7e",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "7bdd177817ef1af527b5793963511a73644d03c4",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-12T10:13:56Z",
+    "updated_at": "2025-04-12T10:14:02Z",
+    "closed_at": "2025-04-12T10:14:01Z"
+  },
+  {
+    "number": 23,
+    "title": "added new_mem, del_mem example",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/23",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "19e62dcfbf5c480f825d1574c3e48bc71ee15a08",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "3a94d18e03579a0388d1d50dac2d4398f13bb58e",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-12T10:12:41Z",
+    "updated_at": "2025-04-12T10:12:46Z",
+    "closed_at": "2025-04-12T10:12:46Z"
+  },
+  {
+    "number": 22,
+    "title": "added nickname change detection",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/22",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "1d244f193d764af2b1a4d7c296d2d4961d47447b",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "d8b20d66d881c5c5e3449fbb6df30edd4e4a00be",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-12T07:17:15Z",
+    "updated_at": "2025-04-12T07:17:20Z",
+    "closed_at": "2025-04-12T07:17:20Z"
+  },
+  {
+    "number": 21,
+    "title": "added nickname change detection",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/21",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "ce013cfb09c26f217d0a0a01b2d965c2cac86b64",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "c53bb9cd46890905808df9639b8a7df7d6aaff35",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-12T07:15:20Z",
+    "updated_at": "2025-04-12T07:15:26Z",
+    "closed_at": "2025-04-12T07:15:26Z"
+  },
+  {
+    "number": 20,
+    "title": "added nickname change detection",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/20",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "71b97eed6f64935275492b5722ffa80020274ff6",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "5e6b66502e9235bdfa4692261b76f3ccb1d6f702",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-12T07:11:58Z",
+    "updated_at": "2025-04-12T07:12:04Z",
+    "closed_at": "2025-04-12T07:12:04Z"
+  },
+  {
+    "number": 19,
+    "title": "Dev",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/19",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "62bf3bfd97dfac18dc77c226cf6e008431ca0182",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "66c3067b4920422b276b3bbcbecc32dc3b4dff71",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-04T10:22:19Z",
+    "updated_at": "2025-04-04T10:22:25Z",
+    "closed_at": "2025-04-04T10:22:25Z"
+  },
+  {
+    "number": 18,
+    "title": "modified requirements",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/18",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "d74b5a37bd918592a373f0ab399c14682900ad30",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "cd18df8c0443d94062a87892fd2bb430ca24bcf3",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-01T15:55:41Z",
+    "updated_at": "2025-04-01T15:55:47Z",
+    "closed_at": "2025-04-01T15:55:47Z"
+  },
+  {
+    "number": 17,
+    "title": "added initial setup guide",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/17",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "7cc498a8af6414bfc572cfcc8e0ca2a331b97ba9",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "8addb6d16dcb97a1f7de1e95116c21a5d1ef7c6c",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-01T15:49:28Z",
+    "updated_at": "2025-04-01T15:49:35Z",
+    "closed_at": "2025-04-01T15:49:34Z"
+  },
+  {
+    "number": 16,
+    "title": "Dev",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/16",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "48ec8547d9a52b857e29b825f55860655c0e8fdb",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "ae4035a128b281bf95d5738a75d84fd25ecf2a37",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-01T15:36:56Z",
+    "updated_at": "2025-04-01T15:37:02Z",
+    "closed_at": "2025-04-01T15:37:02Z"
+  },
+  {
+    "number": 15,
+    "title": "Dev",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/15",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "d0f3a8844461ce134ccffe98130e3bac67fb4d02",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "4ac74e02fcb745c70ca456c18ab84ba4e10e17b1",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-01T12:51:29Z",
+    "updated_at": "2025-04-01T12:51:35Z",
+    "closed_at": "2025-04-01T12:51:35Z"
+  },
+  {
+    "number": 14,
+    "title": "Dev",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/14",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "21828858ff898de4130558fa3ec1430ae0701f0f",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "c7a54c62864988beae7c97d9fe000766ad07ac61",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-04-01T02:36:22Z",
+    "updated_at": "2025-04-01T02:36:29Z",
+    "closed_at": "2025-04-01T02:36:28Z"
+  },
+  {
+    "number": 13,
+    "title": "added coin related functions",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/13",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "d0f3c8acedc0f409f62a43502b534b7e58639e7f",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "cfcf9233f698ac0fd790f2156f13c4c0d43f7400",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-31T13:47:36Z",
+    "updated_at": "2025-03-31T13:47:43Z",
+    "closed_at": "2025-03-31T13:47:42Z"
+  },
+  {
+    "number": 12,
+    "title": "Dev",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/12",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "fdb3389882abd76894e3658a07dfd4bce4f87e59",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "9393857dfc8f29cbfa7df4e63c0b3e240ff0337b",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-30T16:26:43Z",
+    "updated_at": "2025-03-30T16:36:35Z",
+    "closed_at": "2025-03-30T16:26:48Z"
+  },
+  {
+    "number": 11,
+    "title": "Merge pull request #10 from dolidolih/dev",
+    "body": "Merge pull request #9 from dolidolih/main",
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/11",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "main",
+      "sha": "9393857dfc8f29cbfa7df4e63c0b3e240ff0337b",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "dev",
+      "sha": "3863ae3cb01dbb5722470f165b408ce243ff3cbb",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-30T16:17:26Z",
+    "updated_at": "2025-03-30T16:17:32Z",
+    "closed_at": "2025-03-30T16:17:31Z"
+  },
+  {
+    "number": 10,
+    "title": "Merge pull request #9 from dolidolih/main",
+    "body": "df",
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/10",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "3863ae3cb01dbb5722470f165b408ce243ff3cbb",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "d7a767da53b43b8c39a9fa13524c75352467713b",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-30T16:16:41Z",
+    "updated_at": "2025-03-30T16:16:47Z",
+    "closed_at": "2025-03-30T16:16:47Z"
+  },
+  {
+    "number": 9,
+    "title": "df",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/9",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "main",
+      "sha": "d7a767da53b43b8c39a9fa13524c75352467713b",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "dev",
+      "sha": "dbbdaa74b29ae44231896c5253e5d98007bccefa",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-30T16:15:57Z",
+    "updated_at": "2025-03-30T16:16:03Z",
+    "closed_at": "2025-03-30T16:16:03Z"
+  },
+  {
+    "number": 8,
+    "title": "fixed wrong import",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/8",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "dbbdaa74b29ae44231896c5253e5d98007bccefa",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "43767329ce1ce7050d500063f8bf9bf68668ff4c",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-30T16:12:57Z",
+    "updated_at": "2025-03-30T16:13:03Z",
+    "closed_at": "2025-03-30T16:13:02Z"
+  },
+  {
+    "number": 7,
+    "title": "Create env",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/7",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dolidolih-patch-1",
+      "sha": "11b2741383810121721047007d8ab88f19ca397d",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "8664974f7ea98449084f6ad26e759035e5e4ec84",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-30T16:07:52Z",
+    "updated_at": "2025-03-30T16:08:09Z",
+    "closed_at": "2025-03-30T16:07:57Z"
+  },
+  {
+    "number": 6,
+    "title": "added is_reply()",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/6",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "86a491af420c5f4f347f6fa1ca13c9aed9efe74c",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "f65732d865902e5528666903b3ed8dfbb2790bed",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-30T15:05:42Z",
+    "updated_at": "2025-03-30T15:05:48Z",
+    "closed_at": "2025-03-30T15:05:48Z"
+  },
+  {
+    "number": 5,
+    "title": "added draw text functions & analyze adult image",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/5",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "9486a0d07d3738c67804af214eed139fcbe3fe00",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "86f88460e2ba0c95c12a1ccacc5d940ad821b076",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-30T15:00:50Z",
+    "updated_at": "2025-03-30T15:00:57Z",
+    "closed_at": "2025-03-30T15:00:57Z"
+  },
+  {
+    "number": 4,
+    "title": "change ipy2 to receive endpoint from commandline argument",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/4",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "6325aaf949e648338bddee7c1b0eaae41a31f5b0",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "2f136ed1490909dc7da270feb592f02150224362",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-30T10:57:36Z",
+    "updated_at": "2025-03-30T10:57:42Z",
+    "closed_at": "2025-03-30T10:57:42Z"
+  },
+  {
+    "number": 3,
+    "title": "added lyrics",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/3",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "d8faa635d7631101819de2525ce46cb0b24dd5c1",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "65ad3e292fcff8ae7eed1b9d3d242b75486e8a61",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-30T09:09:02Z",
+    "updated_at": "2025-03-30T09:09:08Z",
+    "closed_at": "2025-03-30T09:09:08Z"
+  },
+  {
+    "number": 2,
+    "title": "Dev",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/2",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "7005c09b6c00ec581065ece45352b1c7da26bfa0",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "9d39544b5b2b52502bd6ff5deab952f93adc4764",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-30T06:14:43Z",
+    "updated_at": "2025-03-30T06:14:49Z",
+    "closed_at": "2025-03-30T06:14:49Z"
+  },
+  {
+    "number": 1,
+    "title": "readme",
+    "body": null,
+    "state": "closed",
+    "draft": false,
+    "merged": true,
+    "html_url": "https://github.com/dolidolih/iris_bot/pull/1",
+    "user": {
+      "login": "dolidolih",
+      "id": 130177574,
+      "profile_url": "https://github.com/dolidolih",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130177574?v=4"
+    },
+    "head": {
+      "ref": "dev",
+      "sha": "b1efede97014b8668ea750a062ed82249d2006f8",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "base": {
+      "ref": "main",
+      "sha": "7ba58549e0be8ee18be1224a47dee5ded3841ec9",
+      "repo": {
+        "full_name": "dolidolih/iris_bot"
+      }
+    },
+    "created_at": "2025-03-30T05:52:00Z",
+    "updated_at": "2025-03-30T05:52:07Z",
+    "closed_at": "2025-03-30T05:52:07Z"
+  }
+]
